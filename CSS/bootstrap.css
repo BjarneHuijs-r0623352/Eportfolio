@@ -167,7 +167,6 @@ a {
 
 a:hover {
   background-color: cornflowerblue;
-  padding: inherit;
   text-decoration: underline;
 }
 
@@ -3946,7 +3945,6 @@ tbody.collapse.show {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  background-color: gray;
 }
 
 .navbar > .container,
