@@ -109,7 +109,6 @@ ul,
 dl {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  background-color: gray;
   list-style-type: none;
 
 }
@@ -164,24 +163,21 @@ sup {
 }
 
 a {
+  background-color: gray;
   text-decoration: none;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
   padding-bottom: 100%; 
   padding-top: 100%;
-  padding-left: 7.5%;
-  padding-right: 7.5%;     
+  padding-left: 5%;
+  padding-right: 5%;     
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
   background-color: cornflowerblue;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
   padding-bottom: 100%; 
   padding-top: 100%;
-  padding-left: 7.5%;
-  padding-right: 7.5%;    
+  padding-left: 5%;
+  padding-right: 5%;    
   text-decoration: underline;
 }
 
