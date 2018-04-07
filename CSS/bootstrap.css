@@ -163,15 +163,15 @@ sup {
 }
 
 li {
-  background-color: gray;
-  padding-bottom: 5%; 
-  padding-top: 5%;
-  padding-left: 5%;
-  padding-right: 5%; 
+  background-color: gray; 
 }
 
 a {
-  text-decoration: none;    
+  text-decoration: none;
+  padding-bottom: 5%; 
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   -webkit-text-decoration-skip: objects;
 }
 
