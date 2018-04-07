@@ -162,7 +162,6 @@ sup {
 
 a {
   text-decoration: none;
-  background-color: gray;
   -webkit-text-decoration-skip: objects;
 }
 
@@ -3946,6 +3945,7 @@ tbody.collapse.show {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background-color: gray;
 }
 
 .navbar > .container,
