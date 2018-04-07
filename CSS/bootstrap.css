@@ -162,20 +162,23 @@ sup {
   top: -.5em;
 }
 
-a {
+li {
   background-color: gray;
-  text-decoration: none;
-  padding-bottom: 100%; 
-  padding-top: 100%;
+  padding-bottom: 5%; 
+  padding-top: 5%;
   padding-left: 5%;
-  padding-right: 5%;     
+  padding-right: 5%; 
+}
+
+a {
+  text-decoration: none;    
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
   background-color: cornflowerblue;
-  padding-bottom: 100%; 
-  padding-top: 100%;
+  padding-bottom: 5%; 
+  padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;    
   text-decoration: underline;
