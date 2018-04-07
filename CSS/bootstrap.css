@@ -166,8 +166,10 @@ a {
   text-decoration: none;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  padding-bottom, padding-top: 25%;
-  padding-left, padding-right: 5%;     
+  padding-bottom: 25%; 
+  padding-top: 25%;
+  padding-left: 5%;
+  padding-right: 5%;     
   -webkit-text-decoration-skip: objects;
 }
 
@@ -175,8 +177,10 @@ a:hover {
   background-color: cornflowerblue;
   margin-top: 0;
   margin-bottom: 0.5rem;
-  padding-bottom, padding-top: 25%;
-  padding-left, padding-right: 5%;     
+  padding-bottom: 25%; 
+  padding-top: 25%;
+  padding-left: 5%;
+  padding-right: 5%;    
   text-decoration: underline;
 }
 
