@@ -164,12 +164,15 @@ sup {
 
 a {
   text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 1rem;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
   background-color: cornflowerblue;
-  margin: inherit;
+  margin-top: 0;
+  margin-bottom: 1rem;
   text-decoration: underline;
 }
 
