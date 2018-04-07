@@ -116,6 +116,7 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+  background-color: gray;
 }
 
 dt {
@@ -167,6 +168,7 @@ a {
 
 a:hover {
   background-color: cornflowerblue;
+  margin: inherit;
   text-decoration: underline;
 }
 
