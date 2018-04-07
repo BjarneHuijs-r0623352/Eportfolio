@@ -167,6 +167,7 @@ a {
 
 a:hover {
   background-color: cornflowerblue;
+  padding: inherit;
   text-decoration: underline;
 }
 
