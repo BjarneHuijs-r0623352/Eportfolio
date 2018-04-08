@@ -163,7 +163,7 @@ sup {
 }
 
 li {
-    padding: 5%;
+    padding: 0.5rem 7rem 0.5rem 7rem;
 }
 
 a {
@@ -3951,7 +3951,7 @@ tbody.collapse.show {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0rem 0rem;
 }
 
 .navbar > .container,
