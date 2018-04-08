@@ -167,19 +167,19 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: gray;
 }
 
 li {
     float: left;
+    padding: 1% 5%
 }
 
 li a {
     display: block;
-    color: gray;
+    background-color: gray;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1rem 7.58rem;
     text-decoration: none;
 }
 
