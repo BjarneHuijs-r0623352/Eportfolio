@@ -162,6 +162,10 @@ sup {
   top: -.5em;
 }
 
+li {
+    padding: 5%;
+}
+
 a {
   text-decoration: none;
   background-color: gray; 
