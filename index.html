@@ -1,53 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
 <head>
+    
     <link rel="stylesheet" type="text/css" href="CSS/bootstrap.css">
+
     <title>E-Portfolio - Bjarne Huijs</title>
-    <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">Over mijzelf</a></li>
-        <li><a href="#skills">Mijn vaardigheden</a></li>
-        <li><a href="#projects">Projecten</a></li>
-        <li><a href="#edu">Opleiding</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul> 
 </head>
-<body>
-      
+<body id="page-top">
+    <ul class="navbar">
+        <li><a href="#" class="page-scroll">Home</a></li>
+        <li><a href="#about" class="page-scroll">Over mijzelf</a></li>
+        <li><a href="#skills" class="page-scroll">Mijn vaardigheden</a></li>
+        <li><a href="#projects" class="page-scroll">Projecten</a></li>
+        <li><a href="#contact" class="page-scroll">Contact</a></li>
+    </ul>
+           
     <div id="home">
         <h2>Welkom</h2>
+        <img src="Images/temp%20me%20pic.jpg" alt="foto van mezelf">
         <p>
             Ik ben Bjarne Huijs,
-            <br>een programmeur/webdeveloper die zichzelf graag uitdaagt met het ontwerpen van websites, kleine spelletjes en applicaties.
+            <br>een programmeur/webdeveloper die zichzelf graag uitdaagt met het ontwerpen van websites, kleine spelletjes en applicaties. 
         </p>
+
     </div>    
        
         <br><br>
         
     <div id="about">    
-        <table>
+        <table class="centerTable">
             <tr>
                 <th></th>
                 <th></th>
             </tr>
             <tr>
-                <td rowspan="5">
-                    <img src="" alt="foto van mezelf">
-                </td>
-            </tr>
-            <tr>
-                <td></td>
                 <td>
                     <p>
                         <b>Student Toegepaste Informatica</b>
                         <br>Ik studeer momenteel Toegepaste Informatica aan het UC Leuven-Limburg en zit in mijn tweede jaar.
                     </p>
                 </td>
-            </tr>
-            <tr>
-                <td></td>
                 <td>
                     <p>
                         <b>Gestructureerd</b>
@@ -56,16 +48,12 @@
                 </td>
             </tr>
             <tr>
-                <td></td>
                 <td>
                     <p>
                         <b>Leergierig</b>
                         <br>Nieuwe technologieën en informatie maak ik me graag eigen. <br>Ik beschouw dit als één van mijn sterkste punten.
                     </p>
                 </td>
-            </tr>
-            <tr>
-                <td></td>
                 <td>
                     <p>
                         <b>Open voor uitdaging</b>
@@ -80,18 +68,18 @@
     
     <div id="skills">
         <h2>Mijn vaardigheden</h2>
-        <table>
+       <table class="compTable">
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>Java</td>
+                <td>C++</td>
+                <td>C#</td>
+                <td>HTML5</td>
             </tr>
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>CSS</td>
+                <td>Javascript</td>
+                <td>JavaSpring</td>
+                <td>Python</td>
             </tr>
         </table>
         <p>Bekijk ook mijn competentiematrix voor meer informatie</p>
@@ -105,16 +93,28 @@
         <table>
             <tr>
                 <td>
-                    <img src="" alt="webapplicatie Web3">
-                    <p>Een webapplicatie die ik als onderdeel van Webontwikkeling 3 heb ontwikkeld. dit is een applicatie die vanuit een database producten en klanten van een webshop weergeeft.</p>
+                    <a href=""><img src="" alt="webapplicatie Web3">
+                        <p>Een webapplicatie die ik als onderdeel van Webontwikkeling 3 heb ontwikkeld. dit is een applicatie die vanuit een database producten en klanten van een webshop weergeeft.</p>
+                    </a>
                 </td>
                 <td>
-                    <img src="" alt="playerApp IP">
-                    <p>Als semestertaak voor InternetProgrammeren heb ik een webapplicatie ontwikkeld die de spelers van spel x en hun personages in dit spel op een overzichtelijke manier weergeeft. Deze app maakt gebruik van het java Spring framework.</p>
+                    <a href=""><img src="" alt="playerApp IP">
+                        <p>Als semestertaak voor InternetProgrammeren heb ik een webapplicatie ontwikkeld die de spelers van spel x en hun personages in dit spel op een overzichtelijke manier weergeeft. Deze app maakt gebruik van het java Spring framework.</p>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="">
+                        <img src="" alt="Yahtzee">
+                        <p>Als groepswerk voor Objectgeorienteerd Ontwerpen heb ik samen met mijn 2 andere groepsleden een versie van het spel yahtzee ontwikkeld in java.</p>
+                    </a>
                 </td>
                 <td>
-                    <img src="" alt="Yahtzee">
-                    <p>Als groepswerk voor Objectgeorienteerd Ontwerpen heb ik samen met mijn 2 andere groepsleden een versie van het spel yahtzee ontwikkeld in java.</p>
+                    <a href="Site_English_Finished/index.html" target="_blank">
+                        <img src="" alt="Site virtual reality">
+                        <p>Een website met informatie, weetjes en een kleine quiz in verband met de evolutie en huidige technologieën van virtual reality.</p>
+                    </a>
                 </td>
             </tr>
         </table>
@@ -122,7 +122,8 @@
     
         <hr>
     
-    <div id="edu">
+<!--    
+   <div id="edu">
         <h2>Mijn opleidingen</h2>
         <ul>
             <li>
@@ -144,17 +145,23 @@
                 </p>
             </li>            
         </ul>
-    </div>
-    
-        <hr>
-    
+    </div>-->
+        
     <div id="contact">
         <h2>Contactinfo</h2>
         <p>Indien u me wenst te contacteren kunt u dit doen via het emailades: 
         <a href="mailto:bjarne.huijs@outlook.com?Subject=">bjarne.huijs@outlook.com</a>
         <br><br>
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="bjarne-huijs-6a58a6159"><a class="LI-simple-link" href='https://be.linkedin.com/in/bjarne-huijs-6a58a6159?trk=profile-badge'>Bjarne Huijs</a></div>
     </div>
-    <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="bjarne-huijs-6a58a6159"><a class="LI-simple-link" href='https://be.linkedin.com/in/bjarne-huijs-6a58a6159?trk=profile-badge'>Bjarne Huijs</a></div>
+
+    <script type="text/javascript" src="JS/jquery.js"></script>
+    <script type="text/javascript" src="JS/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+    <script type="text/javascript" src="JS/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="JS/jquery.fittext.js"></script>
+    <script type="text/javascript" src="JS/wow.min.js"></script>
+    <script type="text/javascript" src="JS/creative.js"></script>
 </body>
 
 </html>
