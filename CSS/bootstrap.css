@@ -255,6 +255,14 @@ a:not([href]):not([tabindex]):focus {
     padding: 1% 15%;
 }
 
+#projects table {
+    
+}
+
+#projects img {
+    width: 15%
+}
+
 pre,
 code,
 kbd,
