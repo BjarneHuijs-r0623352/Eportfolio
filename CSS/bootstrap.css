@@ -260,7 +260,12 @@ a:not([href]):not([tabindex]):focus {
 }
 
 #projects img {
-    width: 15%
+    width: 15%;
+}
+
+#gallery img {
+    display: block;
+    width: 95%;
 }
 
 pre,
