@@ -1,0 +1,24 @@
+package db;
+
+public class DbException extends RuntimeException{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public DbException() {
+		
+	}
+	
+	public DbException(String message) {
+		super(message);
+	}
+	
+	public DbException(Exception e) {
+		super(e);
+	}
+	
+	public DbException(String message, Exception e) {
+		super(message);
+	}
+}
